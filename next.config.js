@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repo = 'https://github.com/deeshababab/NextjsDeploy.git'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}`
+
+
 const nextConfig = {
-  assetPrefix: "/STEMULI",
+  assetPrefix: "/demo",
   trailingSlash: true,
-  basePath: "/STEMULI",
+  basePath: "/demo",
 }
 
 module.exports = nextConfig
