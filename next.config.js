@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repo = 'https://github.com/deeshababab/NextjsDeploy.git'
+const repo = 'NextjsDeploy'
 const assetPrefix = `/${repo}/`
 const basePath = `/${repo}`
 
